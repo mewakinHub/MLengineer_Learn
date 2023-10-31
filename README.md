@@ -43,8 +43,10 @@ AVG salary: $116,416/year [much higher than Thai]
 - MLE is rare as person(now, 2023)
 - hard to find teacher
 
-#### Master degree
-com sci specialize in ML (Georgia tech, USA)
+#### Study
+Master: com sci specialize in ML?
+- AI&ML post-grad program(AIM1 for Inter only): https://www.fanshawec.ca/programs/aim1-artificial-intelligence-and-machine-learning/next
+The role of a "Machine Learning Developer" more closely aligns with the tasks and responsibilities typically associated with a "Machine Learning Engineer," as you mentioned. This role involves developing artificial intelligence systems, generating algorithms for making predictions, and working with big data, which are all core responsibilities of a Machine Learning Engineer. Machine Learning Developers are essentially responsible for building and implementing machine learning solutions, which includes the tasks you referred to as MLOps, using tools like MLflow, ML Pipelines, and deployment.
 
 ### Note
 - Neural Networks are fundamental components of deep learning. They play a pivotal role in enabling deep learning models to learn and represent complex patterns and relationships within data. "Made With ML" underscores the significance of Neural Networks in the context of deep learning.
