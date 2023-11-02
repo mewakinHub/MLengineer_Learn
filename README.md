@@ -32,6 +32,7 @@ deep
 - Agoda: Lead MLE (no intern) (On-site)
 - Aigen: MLE ห้วยขวาง THB 45K-120K/M (consultant company) 
 - sertis: MLE(like Datawow, being consultant company) 
+- AIgen: MLE intern???
 
 #### international job market(abroad) [boom already!]
 > data from indeed.com
