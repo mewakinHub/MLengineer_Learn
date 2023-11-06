@@ -1,9 +1,17 @@
+# class Config:
+#   MYSQL_HOST = 'db4free.net'
+#   MYSQL_PORT = 3306  # default port ของ MySQL คือ 3306
+#   MYSQL_USER = 'datath'
+#   MYSQL_PASSWORD = 'DataScience-chillchill'
+#   MYSQL_DB = 'detraining'
+#   MYSQL_CHARSET = 'utf8mb4'
+
 class Config:
-  MYSQL_HOST = 'db4free.net'
+  MYSQL_HOST = 'localhost'
   MYSQL_PORT = 3306  # default port ของ MySQL คือ 3306
-  MYSQL_USER = 'datath'
-  MYSQL_PASSWORD = 'DataScience-chillchill'
-  MYSQL_DB = 'detraining'
+  MYSQL_USER = 'root'
+  MYSQL_PASSWORD = 'root'
+  MYSQL_DB = 'employees'
   MYSQL_CHARSET = 'utf8mb4'
 
 import pymysql.cursors
@@ -17,18 +25,27 @@ connection = pymysql.connect(host=Config.MYSQL_HOST,
                              db=Config.MYSQL_DB,
                              cursorclass=pymysql.cursors.DictCursor)
 
-# list all tables
-cursor = connection.cursor()
-cursor.execute("show tables;")
-tables = cursor.fetchall()
-cursor.close()
-# print(tables)
+# List all tables
+# cursor = connection.cursor()
+# cursor.execute("SHOW TABLES;")
+# tables = cursor.fetchall()
+# cursor.close()
+
+# # Convert the result to a pandas DataFrame
+# df = pd.DataFrame(tables, columns=['Tables_in_' + Config.MYSQL_DB])
+
+# # Print the DataFrame
+# print(df)
 
 # Use with statement instead of cursor.close()
 with connection.cursor() as cursor:
   # Read a single record
-  sql = "SELECT * FROM online_retail limit 500;"
+  sql = "SELECT * FROM employee_data limit 20;"
   cursor.execute(sql)
   result = cursor.fetchall()
 
-print(result)
+# Convert the result to a pandas DataFrame
+df = pd.DataFrame(result)
+
+# Print the DataFrame
+print(df)
