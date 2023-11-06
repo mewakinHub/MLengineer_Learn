@@ -52,6 +52,8 @@ The role of a "Machine Learning Developer" more closely aligns with the tasks an
 ### Note
 - Neural Networks are fundamental components of deep learning. They play a pivotal role in enabling deep learning models to learn and represent complex patterns and relationships within data. "Made With ML" underscores the significance of Neural Networks in the context of deep learning.
 
+- CLI - command line interface
+
 (optional)Kebernetes,DS: pytoruch tensorflow
 สอบ cer: google cloud, etc.
 
