@@ -1,5 +1,24 @@
 # MLengineer_Learn
 
+#### knowledge:
+ tech stackซ MLflow, BentoML, Docker, DVC, Google Cloud, Nvidia, Apache Airflow
+- Pre-Course: Python, Bash, Docker, Machine Learning
+1️⃣ Week 1: พื้นฐานความรู้ทั่วไปของ Machine Learning Engineer
+👷🏻 Introduction to MLE
+🐍 Python in Production + 🐳 Docker
+
+2️⃣ Week 2: Deep Learning นำไปใช้อย่างไรได้บ้าง
+🧠 ML Applications
+👁️ Computer Vision & 📄 NLP
+(+ Bonus Class: Azure Open AI)
+
+3️⃣ Week 3: เรียนรู้การออกแบบ System Design สำหรับ ML และ MLOps
+⚙️ ML System Design & 🔲 GPU Accelerator
+♾️ MLOps: End-to-End ML Lifecycle
+
+4️⃣ Week 4: การ Deploy โมเดล และบทสรุปรวม
+🚀 MLOps: Model Deployment and Orchestration
+🪄 Bonus: Generative AI / 🎁 Wrap-up!
 ### resource
 
 #### 1. Made With ML
