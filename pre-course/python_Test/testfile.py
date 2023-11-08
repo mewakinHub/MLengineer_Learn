@@ -1,3 +1,5 @@
+import pandas as pd
+
 header = ("date", "item", "price")
 content = [
     ("2020-02-07", "Milk", "26.5"),
@@ -18,4 +20,4 @@ file.close()
 with open("products.csv", "r") as f:
   product = f.readlines()
 
-print(product)
+print(pd.DataFrame(product))
