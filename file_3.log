@@ -22,3 +22,174 @@ Traceback (most recent call last):
            └ 5
 
 ZeroDivisionError: division by zero
+2023-12-26 19:35:22.999 | INFO     | __main__:<module>:20 - If you're using Python 3.6, prefer f-strings of course!
+2023-12-26 19:35:23.024 | ERROR    | __main__:nested:41 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 43, in <module>
+    nested(0)
+    └ <function nested at 0x0000027176D26480>
+
+> File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 39, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x0000027176D263E0>
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 35, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2023-12-26 19:35:42.167 | INFO     | __main__:<module>:20 - If you're using Python 3.6, prefer f-strings of course!
+2023-12-26 19:35:42.196 | ERROR    | __main__:nested:41 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 43, in <module>
+    nested(0)
+    └ <function nested at 0x000002075E336480>
+
+> File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 39, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x000002075E3363E0>
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 35, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2023-12-26 20:05:53.077 | INFO     | __main__:<module>:23 - If you're using Python 3.6, prefer f-strings of course!
+2023-12-26 20:05:53.109 | ERROR    | __main__:nested:44 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 46, in <module>
+    nested(0)
+    └ <function nested at 0x000001DACB876520>
+
+> File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 42, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x000001DACB876480>
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 38, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2023-12-26 20:26:45.781 | INFO     | __main__:<module>:23 - If you're using Python 3.6, prefer f-strings of course!
+2023-12-26 20:26:45.805 | ERROR    | __main__:nested:44 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 46, in <module>
+    nested(0)
+    └ <function nested at 0x0000028E23CC6520>
+
+> File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 42, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x0000028E23CC6480>
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 38, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2023-12-26 20:26:52.084 | INFO     | __main__:<module>:23 - If you're using Python 3.6, prefer f-strings of course!
+2023-12-26 20:26:52.113 | ERROR    | __main__:nested:44 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 46, in <module>
+    nested(0)
+    └ <function nested at 0x0000025DCC2A6520>
+
+> File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 42, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x0000025DCC2A6480>
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 38, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2023-12-26 20:42:50.899 | INFO     | __main__:<module>:23 - If you're using Python 3.6, prefer f-strings of course!
+2023-12-26 20:42:50.930 | ERROR    | __main__:nested:44 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 46, in <module>
+    nested(0)
+    └ <function nested at 0x000002100133A520>
+
+> File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 42, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x000002100133A480>
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 38, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2023-12-26 20:43:45.972 | INFO     | __main__:<module>:23 - If you're using Python 3.6, prefer f-strings of course!
+2023-12-26 20:43:45.993 | ERROR    | __main__:nested:44 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 46, in <module>
+    nested(0)
+    └ <function nested at 0x000001BBBB73A520>
+
+> File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 42, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x000001BBBB73A480>
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 38, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2023-12-26 20:44:14.426 | INFO     | __main__:<module>:23 - If you're using Python 3.6, prefer f-strings of course!
+2023-12-26 20:44:14.467 | ERROR    | __main__:nested:44 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 46, in <module>
+    nested(0)
+    └ <function nested at 0x0000017B188F6520>
+
+> File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 42, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x0000017B188F6480>
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 38, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
+2023-12-26 20:48:11.712 | INFO     | __main__:<module>:23 - If you're using Python 3.6, prefer f-strings of course!
+2023-12-26 20:48:11.736 | ERROR    | __main__:nested:44 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 46, in <module>
+    nested(0)
+    └ <function nested at 0x0000017FDCB0A480>
+
+> File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 42, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x0000017FDCB0A3E0>
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 38, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero

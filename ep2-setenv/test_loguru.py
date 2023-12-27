@@ -4,8 +4,11 @@ from loguru import logger
 logger.add(sys.stderr, format="{time} {level} {message}", filter="my_module", level="INFO")
 
 # Your log statements go here
-logger.info("This is an informational message")
-logger.warning("This is a warning message")
+logger.debug('This is a debug message')
+logger.info('This is an info message')
+logger.warning('This is a warning message')
+logger.error('This is an error message')
+logger.critical('This is a critical message')
 
 logger.add("file_{time}.log")
 

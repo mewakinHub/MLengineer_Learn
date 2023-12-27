@@ -1,0 +1,19 @@
+2023-12-26 20:42:50.899 | INFO     | __main__:<module>:23 - If you're using Python 3.6, prefer f-strings of course!
+2023-12-26 20:42:50.930 | ERROR    | __main__:nested:44 - What?!
+Traceback (most recent call last):
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 46, in <module>
+    nested(0)
+    └ <function nested at 0x000002100133A520>
+
+> File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 42, in nested
+    func(5, c)
+    │       └ 0
+    └ <function func at 0x000002100133A480>
+
+  File "c:\Users\mew\Documents\GitHub\MLengineer_Learn\ep2-setenv\test_loguru.py", line 38, in func
+    return a / b
+           │   └ 0
+           └ 5
+
+ZeroDivisionError: division by zero
